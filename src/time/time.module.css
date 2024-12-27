@@ -1,0 +1,17 @@
+.img {
+    width: 20px;
+    height: 20px;
+}
+.time {
+    margin-left: 20px;
+    background-color: #fff;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #666;
+    gap: 10px;
+    padding: 10px 15px ;
+    align-items: center;
+}

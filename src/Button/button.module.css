@@ -5,14 +5,14 @@
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #707070;
+    background-color: #66666660;
     cursor: pointer;
     transition: border-color 0.25s;
     color: #fff;
 }
 
 .button:hover {
-    background-color: #302f2f;
+    background-color: #272727;
 }
 
 .button:focus,

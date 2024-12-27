@@ -1,5 +1,5 @@
 .input {
-    background-color: #b9b9b9;
+    background-color: #66666660;
     padding: 0px;
     border-radius: 10px;
     width: 100%;
@@ -18,17 +18,18 @@
     margin-top: 20px;
 }
 
-
 ul {
-    background-color: #b9b9b9;
+    background-color: #66666660;
     margin-top: 20px;
     width: 90%;
     padding: 5px;
+    list-style: none;
     margin-left: 10px;
-    border-radius:10px;
+    border-radius: 10px;
 }
 
 li {
     padding: 11px 9px;
     text-transform: uppercase;
+    color: #fff;
 }

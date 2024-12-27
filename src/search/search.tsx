@@ -5,6 +5,7 @@ import PrognosisSection from "../prognosis/prognosisSection";
 
 export default function SearchSection() {
     const [inValue, setInValue] = useState<string>('');
+    const [infoCity, setInfoCity] = useState<string>(''); 
 
     const City = ['tashkent', 'nukus'];
 
@@ -13,7 +14,8 @@ export default function SearchSection() {
     );
 
     function handleClick(city: string) {
-        console.log("Выбранный город:", city);
+        setInfoCity(city);
+        setInValue('')
     }
 
     return (
@@ -29,7 +31,7 @@ export default function SearchSection() {
                 <Button>Search</Button>
             </div>
             {inValue && (
-                <ul className="result">
+                <ul  className="result">
                     {filteredCities.length > 0 ? (
                         filteredCities.map((city, index) => (
                             <li key={index} onClick={() => handleClick(city)}>
@@ -41,7 +43,7 @@ export default function SearchSection() {
                     )}
                 </ul>
             )}
-            <PrognosisSection />
+            {infoCity && <PrognosisSection city={infoCity} />}
         </>
     );
 }

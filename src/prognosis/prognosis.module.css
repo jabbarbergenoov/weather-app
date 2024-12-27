@@ -1,0 +1,31 @@
+.image {
+    width: 40px;
+    height: 40px;
+}
+.information {
+    margin: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.h3 {
+    color: #fff;
+    font-size: 19px;
+}
+.prognos {
+    color: #fff;
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 80%;
+}
+.timeSection {
+    display: flex;
+    margin-top: 70px;
+    overflow-x: scroll;
+}

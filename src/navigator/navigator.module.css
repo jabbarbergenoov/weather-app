@@ -1,0 +1,19 @@
+.img {
+    width: 30px;
+    height: 20px;
+}
+.nav {
+    background-color: #66666660;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+    justify-content: space-evenly;
+    padding: 20px 10px ;
+}
+.item {
+    background-color: #66666660;
+    padding: 10px;
+    border-radius: 10px;
+}
